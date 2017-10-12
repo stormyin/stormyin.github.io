@@ -1,10 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Microsoft YaHei;
 }
 .container{
-    background: url(2.png) no-repeat;
+    background: url(./nation/2.png) no-repeat;
     background-size: 100%;
     width: 1200px;
     height: 1330px;
@@ -12,6 +11,8 @@
     margin: 0 auto;
 }
 .container .sidebar{
+	background: url(./nation/1.png) no-repeat -240px 50px;
+	background-size: 100%;
 	width: 630px;
 	height: 630px;
 }
@@ -19,19 +20,38 @@
 	width: 75%;
 	height: 1020px;
 	margin: 0 auto;
-	margin-top: -565px;
+	margin-top: -560px;
 	background-color: #fff;
 }
 .container .main .top{
 	position: relative;
-	height: 305px;
+	height: 290px;
 }
 .container .main .top img{
-	width: 900px;
-	height: 305px;
+	width: 905px;
+	height: 290px;
 	float: left;
 }
-
+#p1{
+    font-size: 80px;
+    color: #5f2e2e;
+    letter-spacing: 10px;
+    font-family: YuWeiLiShuJT;
+    text-shadow: -5px 0px 15px #696969;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 95px;
+}
+#p2{
+    font-size: 80px;
+    color: #5f2e2e;
+    letter-spacing: 10px;
+    font-family: YuWeiLiShuJT;
+    text-shadow: -5px 0px 15px #696969;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 370px;
+}
 .container .main .column1{
 	height: 270px;
 }
@@ -40,7 +60,7 @@
 	float: left;
 }
 .container .main .column1 .left .nav{
-    background: url(3.png) no-repeat;
+    background: url(./nation/3.png) no-repeat;
     background-size: 100%;
     height: 40px;
     width: 140px;
@@ -66,7 +86,7 @@
 	float: left;
 }
 .container .main .column1 .right .nav{
-    background: url(3.png) no-repeat;
+    background: url(./nation/3.png) no-repeat;
     background-size: 100%;
     height: 40px;
     width: 140px;
@@ -123,7 +143,7 @@
 	height: 230px;
 }
 .container .main .column2 .nav{
-	background: url(4.png) no-repeat;
+	background: url(./nation/4.png) no-repeat;
 	background-size: 100%;
 	width: 100%;
 	height: 65px;
@@ -182,7 +202,7 @@
 	height: 230px;
 }
 .container .main .column3 .nav{
-	background: url(4.png) no-repeat;
+	background: url(./nation/4.png) no-repeat;
 	background-size: 100%;
 	width: 100%;
 	height: 75px;
@@ -219,18 +239,18 @@
 	border:solid rgb(192,192,192) 1px;
 }
 #circle1{
-	background: url(poem_1.png);    
+	background: url(./nation/poem_1.png);    
 	background-size: 100%;
 }
 #circle2{
-	background: url(poem_2.png);    
+	background: url(./nation/poem_2.png);    
 	background-size: 100%;
 }
 #circle3{
-	background: url(poem_3.png);    
+	background: url(./nation/poem_3.png);    
 	background-size: 100%;
 }
 #circle4{
-	background: url(poem_4.png);    
+	background: url(./nation/poem_4.png);    
 	background-size: 100%;
 }
